@@ -28,7 +28,7 @@ class CreateLogin extends React.Component {
           />
 
           {this.state.email && this.state.password &&
-          <button className='pa3 bg-black-10 bn dim ttu pointer' onClick={this.signinUser}>Log in</button>
+          <button className='pa3 bg-black-10 bn dim ttu pointer' onClick={this.loginUser}>Log in</button>
           }
         </div>
       </div>
