@@ -35,8 +35,10 @@ class CreateLogin extends React.Component {
     )
   }
 
-  signinUser = async () => {
+  loginUser = async () => {
+    
   }
+  
 }
 
 export default withRouter(CreateLogin)
